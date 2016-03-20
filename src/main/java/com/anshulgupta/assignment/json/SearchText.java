@@ -1,8 +1,5 @@
 package com.anshulgupta.assignment.json;
 
-import java.util.List;
-
-
 public class SearchText {
 	
 	private String[] searchText;

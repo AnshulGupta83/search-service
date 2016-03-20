@@ -27,22 +27,10 @@ public class SearchController {
 		
 		return searchService.searchCount(searchText);
 	}
-
 	
-	
-	/**
-	 * @param map
-	 *            = All Words in map
-	 * @param n
-	 *            = How many top elements you want to print? If n=1 it will print highest occurrence word. If n=2 it
-	 *            will print top 2 highest occurrence words.
-	 * @throws IOException 
-	 * @returns list of String
-	 */
 	@RequestMapping(value = "/top/{topValue}", method = RequestMethod.GET, headers = "Accept=application/json")
 	public List<SearchResult> findMaxOccurance(@PathVariable int topValue) throws IOException {
 		return searchService.listSearchResult(topValue);
-	}
- 
+	} 
 
 }
