@@ -39,7 +39,7 @@ public class SearchController {
 	 * @throws IOException 
 	 * @returns list of String
 	 */
-	@RequestMapping(value = "/searchTop/{topValue}", method = RequestMethod.GET, headers = "Accept=application/json")
+	@RequestMapping(value = "/top/{topValue}", method = RequestMethod.GET, headers = "Accept=application/json")
 	public List<SearchResult> findMaxOccurance(@PathVariable int topValue) throws IOException {
 		return searchService.listSearchResult(topValue);
 	}
