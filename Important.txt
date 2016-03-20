@@ -1,0 +1,7 @@
+C:\Users\anshul.g.gupta\Downloads\curl -X POST http://localhost:8282/search –d '{"searchText": ["Duis", "Sed", "Donec", "Augue", "Pellentesque", "123"]}' -H "Authorization: Basic b3B0dXM6Y2FuZGlkYXRlcw==" -H "Content-Type:application/json;charset=UTF-8" 
+
+C:\Users\anshul.g.gupta\Downloads\curl -X POST -H "Content-Type:application/json;charset=UTF-8" -H "Authorization: Basic b3B0dXM6Y2FuZGlkYXRlcw==" http://localhost:8282/search --data @body.json 
+
+C:\Users\anshul.g.gupta\Downloads\curl  http://localhost:8282/counter-api/top/20 -H "Authorization: Basic b3B0dXM6Y2FuZGlkYXRlcw==" -H "Accept: text/csv"
+
+curl -X POST -H "Content-Type: application/json" -d "{ \"key1\": \"value1\" }" http://localhost:3000/api/method
